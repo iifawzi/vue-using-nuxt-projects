@@ -1,0 +1,19 @@
+@font-face {
+  font-family: JannaLTRegular;
+  src: url("~assets/fonts/JannaLT-Regular.ttf");
+}
+html, body {
+    margin: 0;
+    width: 100vw;
+    font-family: JannaLTRegular;
+  }
+// Full General use Classes: 
+.full-height-wrapper {
+    height: 100vh;
+}
+.secondWord {
+  color: #5271ff;
+}
+.firstWord {
+  color: #e03a3f;
+}

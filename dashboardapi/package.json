@@ -1,0 +1,24 @@
+{
+  "name": "dashboardapi",
+  "version": "1.0.0",
+  "description": "dashboard-yalla",
+  "author": "Fawzi E. Abdulfattah",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "sass": "sass --watch assets/scss/custom.scss:assets/css/bootstrap.css assets/scss/main-style.scss:assets/css/main-style.css"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.7",
+    "form-data": "^3.0.0",
+    "js-cookie": "^2.2.1",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "vuelidate": "^0.7.5"
+  },
+  "devDependencies": {}
+}
